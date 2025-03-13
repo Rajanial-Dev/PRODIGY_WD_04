@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/f493ad79ae.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    
+                    <h1>Hi, I'm <span>Rajani A.L</span></h1>
+
+                       <h1> A BCA Student </h1>
+                       <h1>"Aspiring Web Developer"</h1> 
+                       <h1>From Acchalu, Kanakapurap</h1> 
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hello! I'm Rajani, a dedicated and passionate Bachelor of Computer Applications (BCA) student, currently in my 6th semester. My journey in the world of technology started with a curiosity for how websites and applications work, which eventually turned into a deep passion for web development, UI/UX design, and problem-solving.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience', event)">Experience</p>
+                            <p class="tab-links" onclick="opentab('education', event)">Education</p>
+                        </div>  
+                        
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Front End Development</span><br>HTML,CSS,JavaScript(Building Responsive Website)</li>
+                                <li><span>JavaScript Projects</span><br>Creating interactive web apps (Stopwatch, Tic-Tac-Toe, etc.)
+                                </li>
+                                <li><span>Web Design</span><br>Designing portfolio & landing pages</li>
+                            </ul>
+                        </div> 
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2025</span><br>Internship at Prodigy InfoTech (HTML, CSS, JavaScript)</li>
+                                <li><span>2025</span><br>Developed a Responsive Portfolio Website</li>
+                                <li><span>2025</span><br>Created a Weather Web App</li>
+                                <li><span>2025</span><br>Built a Stopwatch using JavaScript</li>
+                                <li><span>2025</span><br>Developed a Tic-Tac-Toe game</li>
+                                <li><span>2025</span><br>Designed an Interactive Menu</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022 - 2025</span><br>Bachelor of Computer Applications (BCA) - [Bangalore University]</li>
+                                <li><span>2020 - 2022</span><br>Senior Secondary Education - [Reddy Jana Sanga PU College, Koramangala]</li>
+                                <li><span>2018 - 2020</span><br>High School - [Government High School, Acchalu]</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Services Section -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-gamepad"></i>
+                        <h2>Front End Development</h2>
+                        <p>
+                             I create responsive and interactive websites using HTML, CSS, and JavaScript.
+                             I focus on clean UI, smooth animations, and mobile-friendly designs.
+                             Whether it's a personal site or a business page, I bring ideas to life with code.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h2>2. Portfolio & Landing Page Design
+                        </h2>
+                        <p>
+                             Need a professional portfolio or a modern landing page? I build visually appealing websites that showcase your work and brand.
+                         I ensure fast loading speed, responsiveness, and an eye-catching design.
+                            
+                            </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-gamepad"></i>
+                        <h2>Web-Based Mini Projects</h2>
+                        <p>
+                             I develop interactive web projects like Tic-Tac-Toe, Stopwatch, Weather Apps, and more.
+                             I work on JavaScript-based projects that enhance user experience and engagement.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        
+           <!-- Contact Section -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> rajanial112945@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 8867496911</p>
+                <p><i class="fa-solid fa-location-dot"></i> Acchalu, Kanakapura, Karnataka, India</p>
+                
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/YOUR-GITHUB" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                
+                <a href="your-cv-link.pdf" class="cv-btn2" download>Download CV</a>
+            </div>
+            
+            <div class="contact-right">
+                <form action="mailto:rajanial112945@gmail.com" method="post" enctype="text/plain">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+         
+
+        <script>
+            function opentab(tabname, event) {
+                let tablinks = document.getElementsByClassName("tab-links");
+                let tabcontents = document.getElementsByClassName("tab-contents");
+
+                for (let tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (let tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+    </body>
+</html>
